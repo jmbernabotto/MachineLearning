@@ -1,0 +1,5 @@
+name: ml-environment
+dependencies:
+  - matplotlib
+  - numpy
+  - scikit-learn
