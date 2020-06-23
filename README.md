@@ -2,22 +2,29 @@
 
 1. A partir d'Onyxia : 
 
-git clone https://github.com/jmbernabotto/MachineLearning
+git clone https://github.com/jmbernabotto/MachineLearning et on se place dans le répertoire 
+
+cd MachineLearning
 
 2. puis 
+
 git remote add upstream https://github.com/jmbernabotto/MachineLearning pour mettre en upstream
 
 3. vérification : 
+
 git remote -v 
 normalement deux flux : origin qui pointe sur mon fork et upstream qui pointe sur le dépot de projet
 
 4. puis : 
+
 git pull upstream master pour synchroniser la branche master d'oirigin vers le upstream
 
 5. Il faut ensuite créer sa branche poour éviter de faire des bétises dans la branche master 
+
 git checkout -b NOUVELLE_BRANCHE
 
 6. vérification avec : 
+
 git branch
 pour voir si on a bien basculé dans NOUVELLE_BRANCHE
 
