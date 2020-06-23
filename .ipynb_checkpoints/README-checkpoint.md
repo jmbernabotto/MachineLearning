@@ -29,6 +29,9 @@ git add -A
 pour sauvegarder ces changements puis
 git commit -m "description du changement pour savoir ce qui a été modifié, c'est mieux !"
 
+puis pour tout pousser dans github
+git push origin NOUVELLE_BRANCHE 
+
 retour dans github.com
 
 Compare & Pull Requests
