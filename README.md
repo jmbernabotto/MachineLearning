@@ -5,7 +5,7 @@
 git clone https://github.com/jmbernabotto/MachineLearning
 
 2. puis 
-git remote add upstream https://github.com/jmbernabotto/MachineLearning.git pour mettre en upstream
+git remote add upstream https://github.com/jmbernabotto/MachineLearning pour mettre en upstream
 
 3. vérification : 
 git remote -v 
