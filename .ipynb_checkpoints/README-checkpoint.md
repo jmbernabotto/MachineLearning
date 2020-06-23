@@ -1,23 +1,23 @@
 # MachineLearning propose quelques notebook Jupyter en Python
 
-A partir d'Onyxia : 
+1. A partir d'Onyxia : 
 
 git clone https://github.com/jmbernabotto/MachineLearning
 
-puis 
+2. puis 
 git remote add upstream https://github.com/jmbernabotto/MachineLearning.git pour mettre en upstream
 
-vérification : 
+3. vérification : 
 git remote -v 
 normalement deux flux : origin qui pointe sur mon fork et upstream qui pointe sur le dépot de projet
 
-puis : 
+4. puis : 
 git pull upstream master pour synchroniser la branche master d'oirigin vers le upstream
 
-Il faut ensuite créer sa branche poour éviter de faire des bétises dans la branche master 
+5. Il faut ensuite créer sa branche poour éviter de faire des bétises dans la branche master 
 git checkout -b NOUVELLE_BRANCHE
 
-vérification avec : 
+6. vérification avec : 
 git branch
 pour voir si on a bien basculé dans NOUVELLE_BRANCHE
 
@@ -25,19 +25,23 @@ on créé alors les fichiers nouveaux ou les transformations de fichiers existan
 par exemple :
 nouveau_notebook.ipynb ou nouveau_markdown.md
 
+7. puis pour sauvegarder ces changements
 git add -A
-pour sauvegarder ces changements puis
+
+8. puis pour commenter les changements 
 git commit -m "description du changement pour savoir ce qui a été modifié, c'est mieux !"
 
-puis pour tout pousser dans github
+9. puis pour tout pousser dans github
 git push origin NOUVELLE_BRANCHE 
 
-retour dans github.com
+10. retour dans github.com
 
-Compare & Pull Requests
+11. Compare & Pull Requests
 
-Create Pull Requests
+12. Create Pull Requests
 
-Commits pour les voir
+13. Commits pour les voir
 
-et à la fin on peut dézinguer la branche créée
+si on doit refaire des modifs, il suffit de faire les étapes 7. à 13.
+
+et à la fin on peut dézinguer la branche créée dans github
